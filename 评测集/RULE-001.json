@@ -1,0 +1,820 @@
+{
+  "schema_version": "1.0",
+  "evaluation_id": "RULE-001",
+  "reference_author": "开发者",
+  "reference_status": "原文核对；无独立工程复核或盲测",
+  "manifest_path": "../公开规则资料/资料清单.json",
+  "source_files": [
+    {
+      "file_id": "PUB-001",
+      "sha256": "c86463907785e1aeab4edb23eff29ce3be221c603202623d0e008ccbc7a6318b",
+      "pages": 8
+    },
+    {
+      "file_id": "PUB-002",
+      "sha256": "b6888deb5d963aeab24764966f25dc3c91f745d4fd58216bab1263bd0bb9bd13",
+      "pages": 9
+    },
+    {
+      "file_id": "PUB-003",
+      "sha256": "0747784491c35afb20abdc4a82c70f00818a392935f3bde34accff70d9455918",
+      "pages": 16
+    },
+    {
+      "file_id": "PUB-004",
+      "sha256": "24c1c81ec1ca7e9449dd00ca2a136cfcf44e6ccd97e57acb1d8197e67191912b",
+      "pages": 220
+    },
+    {
+      "file_id": "PUB-005",
+      "sha256": "b7f8c220b347949a3791e6309f45eb2d0e6ebf96402c0220ee54ef26a7286516",
+      "pages": 1
+    },
+    {
+      "file_id": "PUB-006",
+      "sha256": "91badac4c62dfcde1467cde1b48aa2e49aef78f39efce60420ced357bdea8cce",
+      "pages": 12
+    },
+    {
+      "file_id": "PUB-007",
+      "sha256": "ef52a39245ef2084077d02142e3a2422cd274710648c643e5ea36a0d1ac07834",
+      "pages": 2
+    },
+    {
+      "file_id": "PUB-008",
+      "sha256": "c3af9ea9e24de0925e5c51161be1c7feb1fd6eb11783e84c395ac4454d45523d",
+      "pages": 251
+    },
+    {
+      "file_id": "PUB-009",
+      "sha256": "bbc3b65fd3f8e22268b206f5635f4f922c863bebc69cc6907f2929dbbba1563e",
+      "pages": 5
+    },
+    {
+      "file_id": "PUB-010",
+      "sha256": "61b3a7830a0aa81464ab22b8483e4e0a15a4f27e9700f2982211e1b0777e642c",
+      "pages": 2
+    },
+    {
+      "file_id": "PUB-011",
+      "sha256": "ddc57eb2f4d4ef71b4d4a6f7f88beb24671b766d27d2e44bd13bbf6c4b1237c3",
+      "pages": 2
+    },
+    {
+      "file_id": "PUB-012",
+      "sha256": "fed2609ca6f7163f078c645146793882ecf1800bd499a6e82f9a9c2b964b858c",
+      "pages": 3
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "RULE-001",
+      "group": "政策",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "评标委员会是否必须采纳 AI 类人评审结论？",
+      "reference_answer": "成员自主决定采纳或不予采纳。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-003",
+          "pdf_pages": [
+            12
+          ],
+          "anchors": [
+            "自主决定采纳或不予采纳"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-003"
+      ]
+    },
+    {
+      "task_id": "RULE-002",
+      "group": "政策",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "AI 类人评审出现异常无法正常服务如何处理？",
+      "reference_answer": "停止使用服务，放弃有关建议，依据项目特点及专业能力完成程序。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-003",
+          "pdf_pages": [
+            12
+          ],
+          "anchors": [
+            "停止使用",
+            "依据项目特点及自身专业能力"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-003"
+      ]
+    },
+    {
+      "task_id": "RULE-003",
+      "group": "政策",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "模型生成结论是否取代使用主体的自主判断与法定责任？",
+      "reference_answer": "不替代自主判断，不改变法定责任。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-003",
+          "pdf_pages": [
+            6
+          ],
+          "anchors": [
+            "不替代",
+            "不改变使用主体的法定责任"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-003"
+      ]
+    },
+    {
+      "task_id": "RULE-004",
+      "group": "政策",
+      "requirements": [
+        "BREQ-003"
+      ],
+      "query": "投标人在线询标函未及时回复有什么后果？",
+      "reference_answer": "视为放弃澄清、说明或补正。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-002",
+          "pdf_pages": [
+            6
+          ],
+          "anchors": [
+            "若投标人未及时回复",
+            "放弃澄清、说明或补正"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-002"
+      ]
+    },
+    {
+      "task_id": "RULE-005",
+      "group": "政策",
+      "requirements": [
+        "BREQ-001",
+        "BREQ-002"
+      ],
+      "query": "电子招标投标操作规程何时施行，有效期多长？",
+      "reference_answer": "2026年5月8日起，三年。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-002",
+          "pdf_pages": [
+            9
+          ],
+          "anchors": [
+            "2026年5月8日",
+            "有效期三年"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-002"
+      ]
+    },
+    {
+      "task_id": "RULE-006",
+      "group": "政策",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "评定分离的评审环节和定标环节由谁完成？",
+      "reference_answer": "评标委员会评审并推荐，定标委员会按规则择优确定中标人。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-001",
+          "pdf_pages": [
+            2
+          ],
+          "anchors": [
+            "评审环节",
+            "定标环节"
+          ]
+        }
+      ],
+      "file_ids": [
+        "PUB-001"
+      ]
+    },
+    {
+      "task_id": "RULE-007",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "项目采用什么评标方法？",
+      "reference_answer": "技术评分合理价格法。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            58,
+            71
+          ],
+          "anchors": [
+            "技术评分合理价格法"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-008",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "施工组织设计的满分是多少，整体还是分项赋分？",
+      "reference_answer": "本项满分100分，综合考虑酌情赋分；未给六项独立权重。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            65
+          ],
+          "anchors": [
+            "本项满分100分",
+            "酌情赋分"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-009",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术文件详细评审是否启用 AI 类人评审？",
+      "reference_answer": "启用AI类人辅助，模型结论不替代自主判断。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            65
+          ],
+          "anchors": [
+            "启用合肥公共资源交易大模型",
+            "不替代使用主体的自主判断"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-010",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术文件详细评审环节，专家对 AI 结果要复核吗？",
+      "reference_answer": "评标委员会成员须复核。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            66
+          ],
+          "anchors": [
+            "成员须对人工智能辅助评审结果进行复核"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-011",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "施工组织设计的 A4、字号和50页是编制建议还是强制否决要求？",
+      "reference_answer": "该处列为建议，不自行推定否决。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            65
+          ],
+          "anchors": [
+            "建议编制要求",
+            "不超过50页"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-012",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术排序如何确定入围报价评审的家数，同分怎样处理？",
+      "reference_answer": "不足5家全入围，达到5家取前5，最末同分均入围。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            67
+          ],
+          "anchors": [
+            "确定前5家入围",
+            "得分相同且排序最末"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-013",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术入围后的商务技术复核不通过，是否增补其他投标人？",
+      "reference_answer": "复核不通过不予增补。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            67
+          ],
+          "anchors": [
+            "复核不通过不予增补"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-014",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "进入报价文件评审的投标人不足三家时怎么办？",
+      "reference_answer": "不足3家否决所有投标。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            67
+          ],
+          "anchors": [
+            "不足3家",
+            "否决所有投标"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-015",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "报价评审通过后，奇数或偶数家数的价格推荐区间如何确定？",
+      "reference_answer": "价格降序占位，奇数按(S+1)/2、偶数按S/2取不低于相应价格者，再价格升序推荐。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            67
+          ],
+          "anchors": [
+            "不低于第",
+            "（S+1）/2",
+            "S/2"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-016",
+      "group": "道路",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "评标价相同时，中标候选人的优先顺序是什么？",
+      "reference_answer": "先技术得分高，再委员会投票。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            67
+          ],
+          "anchors": [
+            "评标价相同时",
+            "得分高的优先",
+            "投票"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-017",
+      "group": "道路",
+      "requirements": [
+        "BREQ-001",
+        "BREQ-002"
+      ],
+      "query": "施工组织设计良好评分区间的补疑变更是什么？",
+      "reference_answer": "旧文70<F<80，补疑改为70<F<90；应保留两份版本依据。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-004",
+          "pdf_pages": [
+            65
+          ],
+          "anchors": [
+            "良好得70分＜F＜80分"
+          ]
+        },
+        {
+          "file_id": "PUB-005",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "现修改",
+            "良好得70分＜F＜90分"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-018",
+      "group": "道路",
+      "requirements": [
+        "BREQ-003",
+        "BREQ-007"
+      ],
+      "query": "公示列出的资格否决是否涉及主要管理人员和技术人员配备？",
+      "reference_answer": "公开否决表涉及该要求，不能作为本公司已发生的原因。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-006",
+          "pdf_pages": [
+            11,
+            12
+          ],
+          "anchors": [
+            "其他主要管理人员和技术人员配备"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-019",
+      "group": "道路",
+      "requirements": [
+        "BREQ-007"
+      ],
+      "query": "本次中标候选人公示期到哪一天？",
+      "reference_answer": "2026年09月30日至2026年10月08日，不当作最终中标。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-007",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "公示期",
+            "2026年10月08日"
+          ]
+        }
+      ],
+      "project_id": "2026BFFGZ51067"
+    },
+    {
+      "task_id": "RULE-020",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术文件详细评审是否执行 AI 类人辅助评标？",
+      "reference_answer": "明确不执行。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            79
+          ],
+          "anchors": [
+            "不执行AI",
+            "类人"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-021",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "工程重点难点保障体系技术权重是多少？",
+      "reference_answer": "40%。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            88
+          ],
+          "anchors": [
+            "40%",
+            "工程重点难点保障体系"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-022",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "技术评审标准的 A 等级如何按得分和排序确定？",
+      "reference_answer": "分数>70者取前9，最末同分纳入；不足9家全取。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            92
+          ],
+          "anchors": [
+            "得分＞70分",
+            "前9家",
+            "得分相同且排序最末"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-023",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "初审通过的投标人数量与推荐中标候选人数是什么关系？",
+      "reference_answer": "N<3否决全部，3≤N<10推荐3，N≥10推荐5，另有不足人数例外。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            78
+          ],
+          "anchors": [
+            "N＜3",
+            "3≤N＜10",
+            "N≥10"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-024",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "综合评价为好时 AAA 与 AAB、ABA、BAA 哪个优先？",
+      "reference_answer": "AAA优先，另外三者不区分优先顺序。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            78
+          ],
+          "anchors": [
+            "AAA优于AAB",
+            "三者不区分优先顺序"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-025",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "直接票决如何确定中标人，最高同票及同报价怎么办？",
+      "reference_answer": "每人选一家，票数排序；最高同票低报价优先，同价再投票。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-008",
+          "pdf_pages": [
+            109
+          ],
+          "anchors": [
+            "选择1家进行投票",
+            "投标报价最低者",
+            "再次进行投票"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-026",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002",
+        "BREQ-003"
+      ],
+      "query": "延期前开标时间的保函是否仍可被认可？",
+      "reference_answer": "延期前后时间均认可，但保函内容须符合招标要求。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-009",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "延期前的开标时间或者延期后的开标时间",
+            "均予以认可"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-027",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-001",
+        "BREQ-002"
+      ],
+      "query": "招标文件获取截止时间的补疑是否存在年份冲突？",
+      "reference_answer": "补疑原文为2023年9月17日，与2026年项目延期信息冲突，须人工确认。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-009",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "2023年9月17日",
+            "2026年9月17日"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-028",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002",
+        "BREQ-003"
+      ],
+      "query": "试验人员、设备和检测单位资质可中标后提供吗？",
+      "reference_answer": "补疑答复均可，认可投标时或中标后提供。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-010",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "中标后提供即可",
+            "答：均可"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-029",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "绿化养护是否有保存养护，成活与日常养护时间多久？",
+      "reference_answer": "成活3个月，日常9个月，不计保存养护。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-010",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "成活养护3个月",
+            "日常养护9个月",
+            "不计保存养护"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-030",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-003"
+      ],
+      "query": "项目负责人获奖文件没有姓名需要哪些补充证明？",
+      "reference_answer": "合同与竣工验收报告同时提供；姓名不一致以竣工验收报告为准。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-009",
+          "pdf_pages": [
+            3
+          ],
+          "anchors": [
+            "须同时提供项目施工合同扫描件及竣工验收报告",
+            "以竣工验收报告为准"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-031",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-002"
+      ],
+      "query": "清单第108项黄菖蒲工程量的补疑变更是什么？",
+      "reference_answer": "由1865株调整为29840株。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-009",
+          "pdf_pages": [
+            4
+          ],
+          "anchors": [
+            "第108项",
+            "1865株调整为29840株"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    },
+    {
+      "task_id": "RULE-032",
+      "group": "园林边界",
+      "requirements": [
+        "BREQ-007"
+      ],
+      "query": "评定分离的中标候选人公示是否有先后排名？",
+      "reference_answer": "候选排名不分先后。",
+      "required_evidence": [
+        {
+          "file_id": "PUB-012",
+          "pdf_pages": [
+            1
+          ],
+          "anchors": [
+            "排名不分先后"
+          ]
+        }
+      ],
+      "project_id": "2026BFJGZ50917"
+    }
+  ],
+  "visible_page_checks": [
+    {
+      "check_id": "PAGE-001",
+      "file_id": "PUB-007",
+      "pdf_page": 2,
+      "must_not_contain": "公示期：2026年09月30日至2026年10月08日",
+      "basis": "2026-10-06 PDF 第2页渲染核对，公示期位于第1页；检查页面外文本污染"
+    },
+    {
+      "check_id": "PAGE-002",
+      "file_id": "PUB-012",
+      "pdf_page": 3,
+      "must_not_contain": "2026年09月18日",
+      "basis": "2026-10-07 PDFium 渲染第3页完全无墨迹，页面范围内日期亦不可见；裁剪仍不足以保证可见性"
+    }
+  ]
+}

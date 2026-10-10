@@ -1,0 +1,21 @@
+# 原件存放在对象存储（键 originals/sha256/<前两位>/<sha256><扩展名>）与本地缓存（TENDER_DATASETS_CACHE），
+# 仓库只保存资料清单、校验值、存储键与说明文档。已被跟踪的原件在 store push 与 store verify 通过后再移出版本管理。
+*.pdf
+*.PDF
+*.ofd
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.wps
+*.zip
+*.rar
+*.7z
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.dwg
+*.part
+.*.tmp/

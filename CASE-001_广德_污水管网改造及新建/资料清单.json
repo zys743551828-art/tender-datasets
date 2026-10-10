@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.2",
+  "case_id": "CASE-001",
+  "project_name": "广德未来科创城污水管网改造及新建工程项目-科技路、昌盛路及周边污水管网改造及新建工程",
+  "tender_id": "2026AFWGZ50940",
+  "region": "安徽省广德市",
+  "bidder": "安徽秉一市政工程有限公司",
+  "registered_date": "2026-10-06",
+  "file_records": [
+    {
+      "file_id": "FILE-001",
+      "kind": "招标文件",
+      "original_filename": "招标文件.pdf",
+      "path": "01-招标资料/CASE-001_招标文件_20260820.pdf",
+      "document_date": "2026-08-20",
+      "bytes": 1561162,
+      "pages": 219,
+      "sha256": "0ac3fc35e412cd8aeec7614f28c41743331dedd5d22be988feab553296006e25"
+    },
+    {
+      "file_id": "FILE-002",
+      "kind": "技术标",
+      "original_filename": "9.10（安徽秉一）广德未来科创城污水管网改造及新建工程项目-科技路、昌盛路及周边污水管网改造及新建工程.pdf",
+      "path": "02-投标文件/CASE-001_技术标_安徽秉一市政_20260910.pdf",
+      "document_date": "2026-09-10",
+      "bytes": 3977477,
+      "pages": 50,
+      "sha256": "5027159571bf015e6c0d01a8f782a868ad382a08c24520187f7d23fb2f23779f"
+    }
+  ],
+  "assessment": {
+    "method": "综合评估法",
+    "max_scores": {
+      "technical": 5,
+      "commercial": 0,
+      "price": 95,
+      "overall": 100
+    },
+    "reported_results": [
+      {
+        "result_id": "CASE-001-RESULT-001",
+        "source_kind": "user_statement",
+        "received_date": "2026-10-07",
+        "source_description": "用户在本项目对话中报送现有案例真实分数及最终入围门槛",
+        "verification_status": "official_source_pending",
+        "target": "technical_total",
+        "target_interpretation": "依据本项目技术满分5分及对话上下文登记，待官方成绩口径核验",
+        "value": 4.26,
+        "maximum": 5,
+        "reported_shortlist_cutoff": 4.39,
+        "cutoff_scope_status": "official_stage_and_result_date_pending",
+        "submission_file_id": "FILE-002",
+        "submission_sha256": "5027159571bf015e6c0d01a8f782a868ad382a08c24520187f7d23fb2f23779f",
+        "official_training_eligible": false
+      }
+    ]
+  }
+}

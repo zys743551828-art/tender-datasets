@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "collection_id": "RULESET-001",
+  "title": "合肥公开规则与评审证据",
+  "verified_date": "2026-10-06",
+  "file_records": [
+    {
+      "file_id": "PUB-001",
+      "source_ids": [
+        "SRC-046"
+      ],
+      "source_name": "03合肥市人民政府关于印发《合肥市工程建设项目招标投标评定分离管理办法（试行）》的通知.pdf",
+      "relative_path": "政策/合政秘〔2024〕78号_评定分离管理办法_20241108.pdf",
+      "source_page_url": "https://ggzy.hefei.gov.cn/zcfg/012005/20260915/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f.html",
+      "download_url": "https://ggzy.hefei.gov.cn/uploadfile/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f/03%E5%90%88%E8%82%A5%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E5%90%88%E8%82%A5%E5%B8%82%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E6%8B%9B%E6%A0%87%E6%8A%95%E6%A0%87%E8%AF%84%E5%AE%9A%E5%88%86%E7%A6%BB%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "publication_date": "2026-09-15",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥工程建设，适用条件见第三条",
+      "version_note": "合政秘〔2024〕78号",
+      "bytes": 292135,
+      "pages": 8,
+      "sha256": "c86463907785e1aeab4edb23eff29ce3be221c603202623d0e008ccbc7a6318b",
+      "document_date": "2024-11-08"
+    },
+    {
+      "file_id": "PUB-002",
+      "source_ids": [
+        "SRC-045"
+      ],
+      "source_name": "31关于印发《合肥市工程建设项目电子招标投标操作规程》的通知.pdf",
+      "relative_path": "政策/合公信〔2026〕20号_电子招标投标操作规程_20260407.pdf",
+      "source_page_url": "https://ggzy.hefei.gov.cn/zcfg/012005/20260915/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f.html",
+      "download_url": "https://ggzy.hefei.gov.cn/uploadfile/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f/31%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E5%90%88%E8%82%A5%E5%B8%82%E5%B7%A5%E7%A8%8B%E5%BB%BA%E8%AE%BE%E9%A1%B9%E7%9B%AE%E7%94%B5%E5%AD%90%E6%8B%9B%E6%A0%87%E6%8A%95%E6%A0%87%E6%93%8D%E4%BD%9C%E8%A7%84%E7%A8%8B%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "publication_date": "2026-09-15",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥工程建设电子交易",
+      "version_note": "合公信〔2026〕20号",
+      "bytes": 256977,
+      "pages": 9,
+      "sha256": "b6888deb5d963aeab24764966f25dc3c91f745d4fd58216bab1263bd0bb9bd13",
+      "document_date": "2026-04-07"
+    },
+    {
+      "file_id": "PUB-003",
+      "source_ids": [
+        "SRC-044"
+      ],
+      "source_name": "32关于修订《合肥公共资源交易大模型开发建设与应用管理暂行办法》的通知.pdf",
+      "relative_path": "政策/合公信〔2026〕46号_大模型管理办法修订_20260706.pdf",
+      "source_page_url": "https://ggzy.hefei.gov.cn/zcfg/012005/20260915/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f.html",
+      "download_url": "https://ggzy.hefei.gov.cn/uploadfile/f62fb008-dfd9-48cf-ae1b-fefeb8e5fb6f/32%E5%85%B3%E4%BA%8E%E4%BF%AE%E8%AE%A2%E3%80%8A%E5%90%88%E8%82%A5%E5%85%AC%E5%85%B1%E8%B5%84%E6%BA%90%E4%BA%A4%E6%98%93%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E5%BB%BA%E8%AE%BE%E4%B8%8E%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86%E6%9A%82%E8%A1%8C%E5%8A%9E%E6%B3%95%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+      "publication_date": "2026-09-15",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥公共资源交易大模型",
+      "version_note": "合公信〔2026〕46号修订合公信〔2025〕82号",
+      "bytes": 334420,
+      "pages": 16,
+      "sha256": "0747784491c35afb20abdc4a82c70f00818a392935f3bde34accff70d9455918",
+      "document_date": "2026-07-06"
+    },
+    {
+      "file_id": "PUB-004",
+      "source_ids": [
+        "SRC-035"
+      ],
+      "source_name": "招标文件正文.pdf",
+      "relative_path": "2026BFFGZ51067/2026BFFGZ51067_招标文件_20260904.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001003/20260904/da82fda7-1c9d-42c5-aa4c-07c8006b77da.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/da82fda7-1c9d-42c5-aa4c-07c8006b77da/068394af-6be4-4679-a58f-0f0951e6e1ec/招标文件正文.pdf",
+      "publication_date": "2026-09-04",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥蜀山，道路施工",
+      "version_note": "招标正文，须结合补疑1",
+      "bytes": 1403423,
+      "pages": 220,
+      "sha256": "24c1c81ec1ca7e9449dd00ca2a136cfcf44e6ccd97e57acb1d8197e67191912b",
+      "document_date": "2026-09-04"
+    },
+    {
+      "file_id": "PUB-005",
+      "source_ids": [
+        "SRC-047"
+      ],
+      "source_name": "2026BFFGZ51067项目补疑1.pdf",
+      "relative_path": "2026BFFGZ51067/2026BFFGZ51067_补疑1_20260911.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001004/20260911/4e61e160-05a7-4af8-afde-af13a4fc0342.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/4e61e160-05a7-4af8-afde-af13a4fc0342/54235b19-de8d-4e78-954b-a983e9e7bf62/2026BFFGZ51067项目补疑1.pdf",
+      "publication_date": "2026-09-11",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥蜀山，道路施工",
+      "version_note": "补疑1，修改技术评分良好区间",
+      "bytes": 222791,
+      "pages": 1,
+      "sha256": "b7f8c220b347949a3791e6309f45eb2d0e6ebf96402c0220ee54ef26a7286516",
+      "document_date": "2026-09-11"
+    },
+    {
+      "file_id": "PUB-006",
+      "source_ids": [
+        "SRC-048"
+      ],
+      "source_name": "评标情况一览表.pdf",
+      "relative_path": "2026BFFGZ51067/2026BFFGZ51067_评标情况一览表_20260930.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001005/20260930/f67d943d-02c8-4958-ba83-e34da0efa148.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/f67d943d-02c8-4958-ba83-e34da0efa148/781600a4-9b43-44ac-a27d-ac97424836ad/评标情况一览表.pdf",
+      "publication_date": "2026-09-30",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥蜀山，道路施工",
+      "version_note": "候选人公示附件，未取得最终中标结果",
+      "bytes": 212277,
+      "pages": 12,
+      "sha256": "91badac4c62dfcde1467cde1b48aa2e49aef78f39efce60420ced357bdea8cce",
+      "filename_date_basis": "所附公示的发布日期，不推定附件文内日期"
+    },
+    {
+      "file_id": "PUB-007",
+      "source_ids": [
+        "SRC-048"
+      ],
+      "source_name": "中标候选人公示.pdf",
+      "relative_path": "2026BFFGZ51067/2026BFFGZ51067_候选人公示_20260930.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001005/20260930/f67d943d-02c8-4958-ba83-e34da0efa148.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/f67d943d-02c8-4958-ba83-e34da0efa148/0a041c65-527d-431c-b110-8b36401d81b7/中标候选人公示.pdf",
+      "publication_date": "2026-09-30",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥蜀山，道路施工",
+      "version_note": "候选公示，公示期至2026-10-08",
+      "bytes": 268711,
+      "pages": 2,
+      "sha256": "ef52a39245ef2084077d02142e3a2422cd274710648c643e5ea36a0d1ac07834",
+      "document_date": "2026-09-30"
+    },
+    {
+      "file_id": "PUB-008",
+      "source_ids": [
+        "SRC-041"
+      ],
+      "source_name": "招标文件正文.pdf",
+      "relative_path": "2026BFJGZ50917/2026BFJGZ50917_招标文件_202608日期未注明.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001003/20260818/80409bd5-fc46-473f-bdbb-aeeeac0de6d4.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/80409bd5-fc46-473f-bdbb-aeeeac0de6d4/499455cb-2b33-4bc0-9bc2-d1d1b5906978/招标文件正文.pdf",
+      "publication_date": "2026-08-18",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥经开区，园林及市政配套，边界参照",
+      "version_note": "招标正文，须结合补疑1、2；封面仅列年月",
+      "bytes": 1529846,
+      "pages": 251,
+      "sha256": "c3af9ea9e24de0925e5c51161be1c7feb1fd6eb11783e84c395ac4454d45523d",
+      "document_date": "2026-08",
+      "document_date_precision": "month"
+    },
+    {
+      "file_id": "PUB-009",
+      "source_ids": [
+        "SRC-049"
+      ],
+      "source_name": "定稿-2026BFJGZ50917项目招标文件补疑1.pdf",
+      "relative_path": "2026BFJGZ50917/2026BFJGZ50917_补疑1_20260902.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001004/20260902/32125225-bdc9-4d35-bc0d-c5e8731a53f7.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/32125225-bdc9-4d35-bc0d-c5e8731a53f7/9da2575c-fedc-42cf-8c39-10b8219aa7b1/定稿-2026BFJGZ50917项目招标文件补疑1.pdf",
+      "publication_date": "2026-09-02",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥经开区，园林及市政配套",
+      "version_note": "补疑1，清单替换、证明材料及期限例外",
+      "bytes": 286159,
+      "pages": 5,
+      "sha256": "bbc3b65fd3f8e22268b206f5635f4f922c863bebc69cc6907f2929dbbba1563e",
+      "document_date": "2026-09-02"
+    },
+    {
+      "file_id": "PUB-010",
+      "source_ids": [
+        "SRC-049"
+      ],
+      "source_name": "2026BFJGZ50917项目招标文件补疑2.pdf",
+      "relative_path": "2026BFJGZ50917/2026BFJGZ50917_补疑2_20260909.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001004/20260909/936f9378-2a24-437b-b8b5-fc434d7d7730.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/936f9378-2a24-437b-b8b5-fc434d7d7730/8ea7916a-d068-4a00-8fe8-c61b27d8a6d7/2026BFJGZ50917项目招标文件补疑2.pdf",
+      "publication_date": "2026-09-09",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥经开区，园林及市政配套",
+      "version_note": "补疑2，检测资料提交时间例外、养护及企业荣誉",
+      "bytes": 154249,
+      "pages": 2,
+      "sha256": "61b3a7830a0aa81464ab22b8483e4e0a15a4f27e9700f2982211e1b0777e642c",
+      "document_date": "2026-09-09"
+    },
+    {
+      "file_id": "PUB-011",
+      "source_ids": [
+        "SRC-050"
+      ],
+      "source_name": "评标情况一览表.pdf",
+      "relative_path": "2026BFJGZ50917/2026BFJGZ50917_评标情况一览表_20260918.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001005/20260918/402bd6f3-4625-4dcb-8f66-1e2c2b21af56.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/402bd6f3-4625-4dcb-8f66-1e2c2b21af56/c7bd5a8e-f031-400b-80f7-aa299e061de0/评标情况一览表.pdf",
+      "publication_date": "2026-09-18",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥经开区，园林及市政配套",
+      "version_note": "候选人公示附件；未列技术成绩",
+      "bytes": 140672,
+      "pages": 2,
+      "sha256": "ddc57eb2f4d4ef71b4d4a6f7f88beb24671b766d27d2e44bd13bbf6c4b1237c3",
+      "filename_date_basis": "所附公示的发布日期，不推定附件文内日期"
+    },
+    {
+      "file_id": "PUB-012",
+      "source_ids": [
+        "SRC-050"
+      ],
+      "source_name": "中标候选人公示.pdf",
+      "relative_path": "2026BFJGZ50917/2026BFJGZ50917_候选人公示_20260918.pdf",
+      "source_page_url": "https://www.ggzyjt.com/jiaoyxx/020001/020001005/20260918/402bd6f3-4625-4dcb-8f66-1e2c2b21af56.html",
+      "download_url": "https://www.ggzyjt.com/hfggzy/402bd6f3-4625-4dcb-8f66-1e2c2b21af56/d25837cb-cfae-47e0-a0a5-c3a894ecd6a1/中标候选人公示.pdf",
+      "publication_date": "2026-09-18",
+      "verified_date": "2026-10-06",
+      "applicable_scope": "合肥经开区，园林及市政配套",
+      "version_note": "评定分离候选，不分先后；未取得最终定标结果",
+      "bytes": 281991,
+      "pages": 3,
+      "sha256": "fed2609ca6f7163f078c645146793882ecf1800bd499a6e82f9a9c2b964b858c",
+      "document_date": "2026-09-18"
+    }
+  ]
+}
