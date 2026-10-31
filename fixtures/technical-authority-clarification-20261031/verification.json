@@ -1,0 +1,20 @@
+{
+  "status": "fixture_prepared_not_model_or_conversion_verified",
+  "docx_matches_reviewed_task_bytes": true,
+  "docx_sha256": "7a8b5b9a84e46f381a230e490faa8066095b62a6a03ec8ce39ee3d43a821e1ac",
+  "docx_bytes": 5298,
+  "repeat_build_identical": true,
+  "original_manifest_unchanged": true,
+  "protected_originals_unchanged": [
+    "09_technical_missing_SYNTHETIC.docx",
+    "10_technical_tender_SYNTHETIC.docx",
+    "11_technical_addendum_SYNTHETIC.docx",
+    "12_technical_text_normal_SYNTHETIC.docx",
+    "13_technical_text_conflict_SYNTHETIC.docx"
+  ],
+  "schema_templates_validated": 2,
+  "personal_absolute_paths_found": false,
+  "api_calls": 0,
+  "model_calls": 0,
+  "git_writes": 0
+}

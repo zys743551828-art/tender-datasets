@@ -1,0 +1,137 @@
+{
+  "status": "candidate_material_only_not_model_verified",
+  "records": [
+    {
+      "case": "normal",
+      "source": "evidence-local-20261030/technical-business-normal-587151c/review/final-technical-normal-poll-result.json",
+      "source_sha256": "f317219375b320c17caf127a506047ebe6967f1fb2e08477bc2636209540fbd7",
+      "ambiguity_index": 0,
+      "actual_ambiguity": "补遗将 T-01 总工期由 120 天替换为 90 天，与招标正文 T-01 总工期 120 天存在直接冲突；补遗声明仅替换 T-01，但未说明该补遗是否构成对招标正文的正式覆盖及生效顺序。",
+      "candidate_material_address": "一、二：虚构签发确认与14优先；90唯一现行、120历史失效且覆盖全部相关引用",
+      "resolution_observed": false
+    },
+    {
+      "case": "normal",
+      "source": "evidence-local-20261030/technical-business-normal-587151c/review/final-technical-normal-poll-result.json",
+      "source_sha256": "f317219375b320c17caf127a506047ebe6967f1fb2e08477bc2636209540fbd7",
+      "ambiguity_index": 1,
+      "actual_ambiguity": "补遗声明 T-04 顶管专项技术说明不适用于本场景，但招标正文 T-04 规定仅采用顶管施工时应提供顶管专项技术说明；两者适用条件是否完全互斥、是否需在评审中排除 T-04 未明确。",
+      "candidate_material_address": "三：本轮明挖与顶管互斥、T04不适用且不要求该专项；未来工法变更须先新文书，不自动恢复",
+      "resolution_observed": false
+    },
+    {
+      "case": "normal",
+      "source": "evidence-local-20261030/technical-business-normal-587151c/review/final-technical-normal-poll-result.json",
+      "source_sha256": "f317219375b320c17caf127a506047ebe6967f1fb2e08477bc2636209540fbd7",
+      "ambiguity_index": 2,
+      "actual_ambiguity": "T-05 要求现场土层条件需人工核实后再确认支护措施，但补遗明确不提供勘察结果且不证明已核实；人工核实的主体、时点及未核实时的处理后果未明确。",
+      "candidate_material_address": "四：明确虚构责任岗位、开挖及措施批准前时点、记录前置及未核实后果；缺的现场事实/人工确认仍unknown",
+      "resolution_observed": false
+    },
+    {
+      "case": "normal",
+      "source": "evidence-local-20261030/technical-business-normal-587151c/review/final-technical-normal-poll-result.json",
+      "source_sha256": "f317219375b320c17caf127a506047ebe6967f1fb2e08477bc2636209540fbd7",
+      "ambiguity_index": 3,
+      "actual_ambiguity": "招标正文声明不提供官方评分办法或成绩，补遗亦不设置官方得分；本项目是否存在评分项及分值无法从所给原文确定。",
+      "candidate_material_address": "五：明确仅技术符合性；评分与额外废标机制不适用，不存在另未提供评分文件；不填0分或官方分",
+      "resolution_observed": false
+    },
+    {
+      "case": "conflict",
+      "source": "evidence-local-20261030/technical-business-conflict-587151c/review/final-technical-conflict-poll-result.json",
+      "source_sha256": "2390d5bc5a520fd848bcd8cc464def566951b361aa57ba3b12cadd183639e42f",
+      "ambiguity_index": 0,
+      "actual_ambiguity": "补遗称“仅对应 10 号技术正文专用招标要求”，但未提供编号 10 的招标文件或映射关系，无法确认补遗是否覆盖全部技术要求。",
+      "candidate_material_address": "一：精确原10文件名/标题/第1版/DOCX SHA；当前仅10+14，不要求旧11或隐含附件",
+      "resolution_observed": false
+    },
+    {
+      "case": "conflict",
+      "source": "evidence-local-20261030/technical-business-conflict-587151c/review/final-technical-conflict-poll-result.json",
+      "source_sha256": "2390d5bc5a520fd848bcd8cc464def566951b361aa57ba3b12cadd183639e42f",
+      "ambiguity_index": 1,
+      "actual_ambiguity": "补遗将 T-01 总工期替换为 90 天，但未说明该替换与招标文件 T-01 的生效优先级及是否需招标人确认。",
+      "candidate_material_address": "一、二：虚构签发确认与14优先；90唯一现行、120历史失效且覆盖全部相关引用",
+      "resolution_observed": false
+    },
+    {
+      "case": "conflict",
+      "source": "evidence-local-20261030/technical-business-conflict-587151c/review/final-technical-conflict-poll-result.json",
+      "source_sha256": "2390d5bc5a520fd848bcd8cc464def566951b361aa57ba3b12cadd183639e42f",
+      "ambiguity_index": 2,
+      "actual_ambiguity": "T-05 要求人工核实，但补遗明确不提供勘察结果且不证明已核实，核实责任主体与完成时限不明。",
+      "candidate_material_address": "四：明确虚构责任岗位、开挖及措施批准前时点、记录前置及未核实后果；缺的现场事实/人工确认仍unknown",
+      "resolution_observed": false
+    },
+    {
+      "case": "conflict",
+      "source": "evidence-local-20261030/technical-business-conflict-587151c/review/final-technical-conflict-poll-result.json",
+      "source_sha256": "2390d5bc5a520fd848bcd8cc464def566951b361aa57ba3b12cadd183639e42f",
+      "ambiguity_index": 3,
+      "actual_ambiguity": "招标文件未提供评分办法或分值，无法提取任何评分项及分值。",
+      "candidate_material_address": "五：明确仅技术符合性；评分与额外废标机制不适用，不存在另未提供评分文件；不填0分或官方分",
+      "resolution_observed": false
+    },
+    {
+      "case": "conflict",
+      "source": "evidence-local-20261030/technical-business-conflict-587151c/review/final-technical-conflict-poll-result.json",
+      "source_sha256": "2390d5bc5a520fd848bcd8cc464def566951b361aa57ba3b12cadd183639e42f",
+      "ambiguity_index": 4,
+      "actual_ambiguity": "招标文件未列明废标条件，无法提取废标条款。",
+      "candidate_material_address": "五：明确仅技术符合性；评分与额外废标机制不适用，不存在另未提供评分文件；不填0分或官方分",
+      "resolution_observed": false
+    },
+    {
+      "case": "missing",
+      "source": "evidence-local-20261030/technical-business-missing-587151c/review/final-technical-missing-poll-result.json",
+      "source_sha256": "661d39a19c75ac1a32008a4c3799c874d87b9c79a50b43d502f5638263b5cb3a",
+      "ambiguity_index": 0,
+      "actual_ambiguity": "补遗称“仅对应 10 号技术正文专用招标要求”，但未说明“10 号”所指文件或版本，补遗与招标文件的对应关系需人工确认。",
+      "candidate_material_address": "一：精确原10文件名/标题/第1版/DOCX SHA；当前仅10+14，不要求旧11或隐含附件",
+      "resolution_observed": false
+    },
+    {
+      "case": "missing",
+      "source": "evidence-local-20261030/technical-business-missing-587151c/review/final-technical-missing-poll-result.json",
+      "source_sha256": "661d39a19c75ac1a32008a4c3799c874d87b9c79a50b43d502f5638263b5cb3a",
+      "ambiguity_index": 1,
+      "actual_ambiguity": "补遗将 T-01 总工期由 120 天替换为 90 天，但未说明该替换是否影响其他条款中可能引用 120 天的内容；原文称“其余技术要求不变”，范围是否覆盖全部引用不明。",
+      "candidate_material_address": "一、二：虚构签发确认与14优先；90唯一现行、120历史失效且覆盖全部相关引用",
+      "resolution_observed": false
+    },
+    {
+      "case": "missing",
+      "source": "evidence-local-20261030/technical-business-missing-587151c/review/final-technical-missing-poll-result.json",
+      "source_sha256": "661d39a19c75ac1a32008a4c3799c874d87b9c79a50b43d502f5638263b5cb3a",
+      "ambiguity_index": 2,
+      "actual_ambiguity": "T-04 顶管专项技术说明因本场景采用明挖施工而不适用，但未说明若后续变更施工工法时该条是否自动恢复适用。",
+      "candidate_material_address": "三：本轮明挖与顶管互斥、T04不适用且不要求该专项；未来工法变更须先新文书，不自动恢复",
+      "resolution_observed": false
+    },
+    {
+      "case": "missing",
+      "source": "evidence-local-20261030/technical-business-missing-587151c/review/final-technical-missing-poll-result.json",
+      "source_sha256": "661d39a19c75ac1a32008a4c3799c874d87b9c79a50b43d502f5638263b5cb3a",
+      "ambiguity_index": 3,
+      "actual_ambiguity": "T-05 要求现场土层条件人工核实后再确认支护措施，但补遗明确不提供勘察结果、不证明已核实；核实责任主体、时限及未核实时的处理后果未明确。",
+      "candidate_material_address": "四：明确虚构责任岗位、开挖及措施批准前时点、记录前置及未核实后果；缺的现场事实/人工确认仍unknown",
+      "resolution_observed": false
+    },
+    {
+      "case": "missing",
+      "source": "evidence-local-20261030/technical-business-missing-587151c/review/final-technical-missing-poll-result.json",
+      "source_sha256": "661d39a19c75ac1a32008a4c3799c874d87b9c79a50b43d502f5638263b5cb3a",
+      "ambiguity_index": 4,
+      "actual_ambiguity": "招标文件称不提供官方评分办法或成绩，故本项目无评分项；是否存在其他未提供的评分办法需人工确认。",
+      "candidate_material_address": "五：明确仅技术符合性；评分与额外废标机制不适用，不存在另未提供评分文件；不填0分或官方分",
+      "resolution_observed": false
+    }
+  ],
+  "remaining_unknown": [
+    "真实土层资料未提供",
+    "虚构责任岗位尚无实际人工核实记录或批准",
+    "实际转换/来源发布/模型抽取/全规则分母/应用资格均未运行不可推断"
+  ],
+  "no_original_response_rewritten": true
+}

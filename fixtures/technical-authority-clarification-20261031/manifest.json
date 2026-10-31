@@ -1,0 +1,46 @@
+{
+  "artifact": {
+    "actual_pdf_pages": null,
+    "bytes": 5298,
+    "declared_logical_pages": 2,
+    "path": "generated/14_technical_final_clarification_SYNTHETIC.docx",
+    "purpose": "addendum",
+    "sha256": "7a8b5b9a84e46f381a230e490faa8066095b62a6a03ec8ce39ee3d43a821e1ac",
+    "source_kind": "authority",
+    "title": "SYNTHETIC 第14号最终技术澄清补遗"
+  },
+  "base_manifest_sha256": "0ecb6e3a27cd71dfdc8e8a847f1a32157b5d683b52566e5b6e6307c78d1ce2fa",
+  "expected_sha256": "748fed8b3e50c67b20cafbb7d4c6c5588fba72c4348a77174e96c243035723b9",
+  "fixture_id": "SYNTHETIC-TECHNICAL-CLARIFICATION-14-20261031",
+  "generator_source": {
+    "path": "../synthetic-fullflow-20261031/generate.py",
+    "sha256": "08de308c9b871f9aed1df84e58995c2425599cf4f809a44e1846210a71fc06bf"
+  },
+  "model_calls": 0,
+  "network_calls": 0,
+  "new_document_only": true,
+  "official_scores": null,
+  "protected_originals": {
+    "09_technical_missing_SYNTHETIC.docx": {
+      "bytes": 3269,
+      "sha256": "7524372e632c1794456d1d4c613832d0b7954fabf821ab6e82cf1122477784c4"
+    },
+    "10_technical_tender_SYNTHETIC.docx": {
+      "bytes": 3467,
+      "sha256": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a"
+    },
+    "11_technical_addendum_SYNTHETIC.docx": {
+      "bytes": 3341,
+      "sha256": "1812b047758132b52cd6c45c5f41e5be455bf66bddba02d3b92c3c37f9bf2168"
+    },
+    "12_technical_text_normal_SYNTHETIC.docx": {
+      "bytes": 3287,
+      "sha256": "922e716209dae6488e39714bf6f53f71180a5ac565eaa805b7e381f9e4ff3dd4"
+    },
+    "13_technical_text_conflict_SYNTHETIC.docx": {
+      "bytes": 3289,
+      "sha256": "e55a1c564b3bd4f5f7bc11adb033375e3380c9ecd4f3670b0c553af47f5f9824"
+    }
+  },
+  "synthetic": true
+}

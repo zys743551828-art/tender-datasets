@@ -1,0 +1,170 @@
+{
+  "body_file_unchanged": {
+    "bytes": 3287,
+    "sha256": "922e716209dae6488e39714bf6f53f71180a5ac565eaa805b7e381f9e4ff3dd4"
+  },
+  "case_id": "SYNTHETIC-TECHNICAL-CLARIFIED-NORMAL",
+  "conversion_executed": false,
+  "expected_checks": [
+    {
+      "clause": "T-01",
+      "mechanism_expectation": "90 days current; all120-day references superseded; body90 may be satisfied"
+    },
+    {
+      "clause": "T-02",
+      "mechanism_expectation": "C30 unchanged; bodyC30 may be satisfied"
+    },
+    {
+      "clause": "T-03",
+      "mechanism_expectation": "input registration/check/output unchanged; body has those steps"
+    },
+    {
+      "clause": "T-04",
+      "mechanism_expectation": "not_applicable only with real14 source evidence and explicit normal scope declaration"
+    },
+    {
+      "clause": "T-05",
+      "mechanism_expectation": "unable_to_judge / unknown; real soil evidence and human confirmation remain absent; no positive fact admission"
+    }
+  ],
+  "label_kind": "mechanism_expectations_only_not_observed_model_result",
+  "model_calls": 0,
+  "not_guaranteed": "A model may still emit ambiguities or omit requirements; retain real output, gaps, full denominator and normal gates. No correction to old model results.",
+  "official_score": null,
+  "parse_executed": false,
+  "replaces_for_new_case_only": "11_technical_addendum_SYNTHETIC.docx; original file remains untouched",
+  "roles": [
+    "tender",
+    "supplement",
+    "body"
+  ],
+  "schema_templates_not_api_requests": [
+    {
+      "identity_version": "bid-package/1",
+      "kind": "authority",
+      "members": [
+        {
+          "document_version_id": "ed653379-4076-5526-9ad2-dd38deba8165",
+          "file_digest": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a",
+          "member_id": "bdbfd8f2-ba30-54c8-b16b-35332f7ad90a",
+          "page_count": null,
+          "parse": {
+            "config_digest": null,
+            "evidence_digest": null,
+            "parse_run_id": null,
+            "parser_digest": null,
+            "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+            "status": "not_frozen"
+          },
+          "parts": [],
+          "purposes": [
+            "tender_body"
+          ],
+          "scope": {
+            "bid_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          },
+          "source_kind": "authority",
+          "source_ref": "SYNTHETIC/10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "document_version_id": "7be71e22-fb07-5a72-84e3-140884de695d",
+          "file_digest": "7a8b5b9a84e46f381a230e490faa8066095b62a6a03ec8ce39ee3d43a821e1ac",
+          "member_id": "f2a5734a-5d81-57aa-937c-845fa65685d2",
+          "page_count": null,
+          "parse": {
+            "config_digest": null,
+            "evidence_digest": null,
+            "parse_run_id": null,
+            "parser_digest": null,
+            "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+            "status": "not_frozen"
+          },
+          "parts": [],
+          "purposes": [
+            "addendum"
+          ],
+          "scope": {
+            "bid_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          },
+          "source_kind": "authority",
+          "source_ref": "SYNTHETIC/14_technical_final_clarification_SYNTHETIC.docx"
+        }
+      ],
+      "package_id": "9f49a68d-5562-5c54-a32f-55ceea5d8324",
+      "predecessor_digest": null,
+      "revision": 1,
+      "revision_id": "77f1c65b-135c-58d6-9990-e4375168b170",
+      "scope": {
+        "bid_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+        "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+        "bidder_status": "pending",
+        "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+        "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+        "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+      }
+    },
+    {
+      "identity_version": "bid-package/1",
+      "kind": "bid",
+      "members": [
+        {
+          "document_version_id": "9ce2089e-2471-59e7-ba65-7e72493f2fc9",
+          "file_digest": "922e716209dae6488e39714bf6f53f71180a5ac565eaa805b7e381f9e4ff3dd4",
+          "member_id": "99a446b1-e912-5f26-bdf2-9b2e1b7fcf70",
+          "page_count": null,
+          "parse": {
+            "config_digest": null,
+            "evidence_digest": null,
+            "parse_run_id": null,
+            "parser_digest": null,
+            "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+            "status": "not_frozen"
+          },
+          "parts": [],
+          "purposes": [
+            "technical"
+          ],
+          "scope": {
+            "bid_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          },
+          "source_kind": "own",
+          "source_ref": "SYNTHETIC/12_technical_text_normal_SYNTHETIC.docx"
+        }
+      ],
+      "package_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+      "predecessor_digest": null,
+      "revision": 1,
+      "revision_id": "1667989c-466d-54e0-a802-60504123d768",
+      "scope": {
+        "bid_id": "31ab5d9a-02e5-56f7-8526-0694b72e8e37",
+        "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+        "bidder_status": "pending",
+        "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+        "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+        "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+      }
+    }
+  ],
+  "scoring_applicability": "not_applicable; no points or invented score",
+  "synthetic": true,
+  "uploads": [
+    "10_technical_tender_SYNTHETIC.docx",
+    "14_technical_final_clarification_SYNTHETIC.docx",
+    "12_technical_text_normal_SYNTHETIC.docx"
+  ]
+}
