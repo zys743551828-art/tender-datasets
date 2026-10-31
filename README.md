@@ -1,6 +1,6 @@
 > 后续开发使用 `dev` 并跟踪 `origin/dev`；原 fusion/handoff 分支保留为来源。下列交接分支要求属于历史记录。
 
-> 当前工作交接请先读 [HANDOFF-20261017.md](HANDOFF-20261017.md)，并切换到`handoff/2026-10-17`分支。以下历史说明保留原范围。
+> Historical handoff: [HANDOFF-20261017.md](HANDOFF-20261017.md) records the former branch and scope. Continue on `dev`; use the [current installation and operation manual](https://github.com/zys743551828-art/tender-docs/blob/dev/使用说明.md) for the delivered workbench.
 
 # 案例库
 
@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | [CASE-001](CASE-001_广德_污水管网改造及新建/README.md) | 2026AFWGZ50940；广德污水管网改造与新建 | 安徽秉一市政工程有限公司 | 招标 219 页、技术标 50 页 |
 
-项目事实和分析见案例入口，文件及结构化数据见资料清单 JSON。入库遵循[案例与数据规范](https://github.com/zys743551828-art/tender-docs/blob/main/03-数据与案例/数据管理规范.md)。
+项目事实和分析见案例入口，文件及结构化数据见资料清单 JSON。入库遵循[案例与数据规范](https://github.com/zys743551828-art/tender-docs/blob/dev/03-数据与案例/数据管理规范.md)。
 
 批量入库用[入库模板](入库模板/README.md)：一行一份样本的登记表（可附分项得分表），由 tender-research 的 `intake` 校验、归档并生成 `评分配对集.json` 与 `入库报告.md`。原件以对象存储为准，本仓库保存资料清单、校验值与存储键（`.gitignore` 排除原件格式）；需要原件时用 tender-research 的 `store fetch` 按清单取回。CASE-001 与公开规则资料的原件在 `store push`、`store verify` 通过后移出仓库，命令见[入库模板第 7 节](入库模板/README.md)。
 
@@ -20,8 +20,8 @@
 | --- | --- | --- |
 | 技术标内容解析与问题举例 | CASE-001 有招标和完整正文；图纸清单、最终补遗及成绩出处未取得 | 可以核对明确条款和文本矛盾；工程结论需复核，不作官方失分归因 |
 | 合肥规则及版本解析 | [公开规则原件库](公开规则资料/README.md)有现行政策、两类项目招标补疑及评审公示 | 按具体版本建立参考答案；园林规则单列，不设全市统一计分规则 |
-| 公司高分与普通表现的内容比较 | 用户说明后续可提供，当前未形成多案例配对集 | 取得完整提交与成绩后按规则、工程及时间分组做跨项目对照；同场官方排序另需同项目多份真实提交及技术分，资料形态见[业务基线](https://github.com/zys743551828-art/tender-docs/blob/main/02-业务与产品/一期方案与验证计划.md#1-业务基线与优先级) |
+| 公司高分与普通表现的内容比较 | 用户说明后续可提供，当前未形成多案例配对集 | 取得完整提交与成绩后按规则、工程及时间分组做跨项目对照；同场官方排序另需同项目多份真实提交及技术分，资料形态见[业务基线](https://github.com/zys743551828-art/tender-docs/blob/dev/02-业务与产品/一期方案与验证计划.md#1-业务基线与优先级) |
 | 技术成绩预测 | 已有 1 例完整正文与用户报送技术成绩关联，官方出处待核验；独立官方配对集未形成 | 综合总分不直接作技术标签；公开入围分数没有配套正文，不用于训练 |
-| 公司中标效果评估 | 公司正式投标及最终结果台账尚未取得 | 依[统一口径](https://github.com/zys743551828-art/tender-docs/blob/main/02-业务与产品/一期方案与验证计划.md#5-指标与验收口径)核验，候选公示不计为最终中标 |
+| 公司中标效果评估 | 公司正式投标及最终结果台账尚未取得 | 依[统一口径](https://github.com/zys743551828-art/tender-docs/blob/dev/02-业务与产品/一期方案与验证计划.md#5-指标与验收口径)核验，候选公示不计为最终中标 |
 
-当前资料已用于[本地及 DeepSeek 公开规则实测](https://github.com/zys743551828-art/tender-docs/blob/main/04-验证与测试/验证报告.md)，支持有限规则、证据、OCR 与已知疑点回归；仍不支持多案例内容效果比较、真实分数预测或中标率提升结论。程序输出为正式实验依据，不补写为案例成绩。
+当前资料已用于[本地及 DeepSeek 公开规则实测](https://github.com/zys743551828-art/tender-docs/blob/dev/04-验证与测试/验证报告.md)，支持有限规则、证据、OCR 与已知疑点回归；仍不支持多案例内容效果比较、真实分数预测或中标率提升结论。程序输出为正式实验依据，不补写为案例成绩。
