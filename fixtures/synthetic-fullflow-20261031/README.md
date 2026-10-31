@@ -51,3 +51,26 @@ ZIP成员时间固定为2020-01-01，内容、图片、关系及JSON均无时钟
 生成器检查ZIP、全部OOXML可解析、主材料无动态域、反例独含规范PAGE、页码格式、无外部关系、输出真实SHA及可选应用JSON schema。它不安装字体、不渲染、不制作PDF、不调用Gotenberg或模型。`declared_logical_pages`只表示设计页数，实际PDF页数仍为null。
 
 后续由独立真实运行验证中文字体、表格／图像／图注、目录页码对应、真实分页、Word采用与解析、原件字节、队列／Worker／权限／幂等及刷新恢复。没有签章、复杂浮动对象、公式、扫描/OCR、宏、超长跨页表格、真实证书、真实投标或生产恢复覆盖；合成资料通过不等于真实复杂标书、规则效果、模型质量或真人验收通过。
+
+
+## 技术正文专用三案例（新增，旧01–08保持字节不变）
+
+本轮当前业务范围取消本方商务、报价、资质；旧三案例保留为历史机制材料，旧missing不再充当技术缺失对照。技术专用集合见 `expected.json.technical_only_scenarios`。
+
+- 权威依据仅使用10号技术招标与11号技术补遗，角色依次为tender、supplement；本方仅一个technical正文，角色为body。
+- normal使用12号纯文字90天/C30正文；contradictory使用13号纯文字150天/C25正文；missing使用09号纯文字正文，真实省略混凝土强度承诺，未写C30或C25，不能从其他案例补全。
+- 10号包含工期、C30、输入登记/检查/输出技术步骤、条件性顶管专项说明，以及需人工核实的现场土层信息；11号仅把120天替换为90天，并明确本虚构场景为明挖、不采用顶管。
+- T-04不适用必须绑定补遗真实原文并显式声明；T-05没有勘察材料，预期保持待人工核实。没有官方评分条款、分数或真实资质认定。
+
+`expected_review_verdict`只标机制期望：正常/矛盾/真实缺文分别供核对satisfied、violated、not_found；不适用需来源依据；不能确认的事项为unable_to_judge。它们不是已观察到的模型响应。现coverage的verified仅表示“人工声明已检查所列范围”，不能改名为“已满足”。全部要求必须保留，不能因范围调整从分母丢掉未知项。
+
+生成与只读验证仍使用已安装且锁定的Pillow12.3.0和标准库OOXML；无需安装依赖或调用服务：
+
+```powershell
+& $Python312 ./fixtures/synthetic-fullflow-20261031/generate.py --check --schema ../tender-app-dev/workbench/packages/contracts/schemas/bid-package.schema.json
+```
+
+这里 `$Python312` 应由操作者显式指定为本机已有的项目Python3.12解释器。首次在未生成原件的克隆中运行时去掉 `--check`；原件仍只在受忽略的generated目录。正常外来DOCX没有动态域，目录与页码为静态文字。实际转换、分页、解析、证据冻结和模型/人工核对尚须后续真实执行，不把本次离线结构检查当作通过这些步骤。
+
+
+新增09–13均为纯文字技术机制材料：09缺失正文、10技术招标、11技术补遗、12正常正文、13矛盾正文。旧03/07的复杂Word图表原件继续原样保留，仍有独立格式/转换验收；选择纯文字机制集合不表示已解决复杂Word图表或解析能力。13份原件中，旧8份文件及对应manifest条目完全不变，旧三scenario的JSON对象不变。新材料未实际转换/解析，actual_pdf_pages仍为null，模板parse仍为not_frozen。当前full2的legacy字层解析partial状态不能改为complete；即使启用现有document/2服务也要检查真实gaps后才能选择冻结。

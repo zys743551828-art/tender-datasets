@@ -79,6 +79,56 @@
       "sha256": "c0dd9eaf503066de9f5b810dc306f1132972cdd50b49cbc6132cb757ada86f84",
       "source_kind": "own",
       "title": "动态域拒绝反例"
+    },
+    {
+      "actual_pdf_pages": null,
+      "bytes": 3269,
+      "declared_logical_pages": 1,
+      "path": "generated/09_technical_missing_SYNTHETIC.docx",
+      "purpose": "technical",
+      "sha256": "7524372e632c1794456d1d4c613832d0b7954fabf821ab6e82cf1122477784c4",
+      "source_kind": "own",
+      "title": "纯文字技术缺失正文"
+    },
+    {
+      "actual_pdf_pages": null,
+      "bytes": 3467,
+      "declared_logical_pages": 1,
+      "path": "generated/10_technical_tender_SYNTHETIC.docx",
+      "purpose": "tender_body",
+      "sha256": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a",
+      "source_kind": "authority",
+      "title": "技术正文专用招标要求"
+    },
+    {
+      "actual_pdf_pages": null,
+      "bytes": 3341,
+      "declared_logical_pages": 1,
+      "path": "generated/11_technical_addendum_SYNTHETIC.docx",
+      "purpose": "addendum",
+      "sha256": "1812b047758132b52cd6c45c5f41e5be455bf66bddba02d3b92c3c37f9bf2168",
+      "source_kind": "authority",
+      "title": "技术正文专用补遗"
+    },
+    {
+      "actual_pdf_pages": null,
+      "bytes": 3287,
+      "declared_logical_pages": 1,
+      "path": "generated/12_technical_text_normal_SYNTHETIC.docx",
+      "purpose": "technical",
+      "sha256": "922e716209dae6488e39714bf6f53f71180a5ac565eaa805b7e381f9e4ff3dd4",
+      "source_kind": "own",
+      "title": "纯文字技术正常正文"
+    },
+    {
+      "actual_pdf_pages": null,
+      "bytes": 3289,
+      "declared_logical_pages": 1,
+      "path": "generated/13_technical_text_conflict_SYNTHETIC.docx",
+      "purpose": "technical",
+      "sha256": "e55a1c564b3bd4f5f7bc11adb033375e3380c9ecd4f3670b0c553af47f5f9824",
+      "source_kind": "own",
+      "title": "纯文字技术矛盾正文"
     }
   ],
   "conversion_executed": false,
@@ -86,7 +136,7 @@
     "DOCX": "stdlib OOXML; canonical PAGE/ZIP pattern from packages/authoring/generated_docx.py",
     "Pillow": "12.3.0"
   },
-  "expected_sha256": "eb6ace2733b5e4700fe7eac5832f30487c32c7c454b76288e1c53b772ba26d4f",
+  "expected_sha256": "9a31486d7e4ca7f87b452ef2d8ef6e08a4c6dd3b15a34761ecafe01a26d1eb36",
   "fixture_id": "SYNTHETIC-FULLFLOW-20261031",
   "generator": "generate.py/1",
   "network_calls": 0,

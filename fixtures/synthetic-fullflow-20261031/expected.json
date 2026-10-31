@@ -629,5 +629,518 @@
     }
   ],
   "schema_id": "https://tender.invalid/contracts/bid-package/1",
-  "synthetic": true
+  "synthetic": true,
+  "technical_only_scenarios": [
+    {
+      "id": "SYNTHETIC-TECHNICAL-NORMAL",
+      "mechanism_expectations": [
+        {
+          "clause": "T-01",
+          "expected_review_verdict": "satisfied",
+          "literal": "总工期由120天明确替换为90天",
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-02",
+          "expected_review_verdict": "satisfied",
+          "literal": "混凝土强度C30",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-03",
+          "expected_review_verdict": "satisfied",
+          "literal": "技术措施应说明输入登记、检查、输出三个步骤",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-04",
+          "expected_review_verdict": "not_applicable",
+          "literal": "本SYNTHETIC场景采用明挖施工，不采用顶管；T-04顶管专项技术说明不适用于本场景。",
+          "requires_explicit_evidence_based_applicability_declaration": true,
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-05",
+          "expected_review_verdict": "unable_to_judge",
+          "human_review_state": "unreviewed",
+          "literal": "现场土层条件需人工核实后再确认支护措施",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        }
+      ],
+      "schema_templates_not_api_requests": [
+        {
+          "identity_version": "bid-package/1",
+          "kind": "authority",
+          "members": [
+            {
+              "document_version_id": "ed653379-4076-5526-9ad2-dd38deba8165",
+              "file_digest": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a",
+              "member_id": "35e8226c-26e3-5e61-b880-7401e7ea2f9e",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "tender_body"
+              ],
+              "scope": {
+                "bid_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/10_technical_tender_SYNTHETIC.docx"
+            },
+            {
+              "document_version_id": "2c450649-d1a2-570f-8b4e-44f5c1ef4de3",
+              "file_digest": "1812b047758132b52cd6c45c5f41e5be455bf66bddba02d3b92c3c37f9bf2168",
+              "member_id": "fe1eb5a2-a625-588f-9653-fef2d149c5b9",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "addendum"
+              ],
+              "scope": {
+                "bid_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/11_technical_addendum_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "d68a9ac3-f51a-5be6-b38a-678d7dae6d8a",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "b367b5b7-2d92-5fdc-a799-0a59cd331885",
+          "scope": {
+            "bid_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        },
+        {
+          "identity_version": "bid-package/1",
+          "kind": "bid",
+          "members": [
+            {
+              "document_version_id": "9ce2089e-2471-59e7-ba65-7e72493f2fc9",
+              "file_digest": "922e716209dae6488e39714bf6f53f71180a5ac565eaa805b7e381f9e4ff3dd4",
+              "member_id": "d8af8217-ca72-516d-8f79-dad2ba982cd2",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "technical"
+              ],
+              "scope": {
+                "bid_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "own",
+              "source_ref": "SYNTHETIC/12_technical_text_normal_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "85a057b5-7246-5316-bbea-d0e561e2d6db",
+          "scope": {
+            "bid_id": "d6fd9103-83ca-5016-9163-877de9a2d45e",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        }
+      ],
+      "scope": "technical_body_only; no business, pricing, qualification or official scoring",
+      "upload_roles": [
+        "tender",
+        "supplement",
+        "body"
+      ],
+      "uploads": [
+        "10_technical_tender_SYNTHETIC.docx",
+        "11_technical_addendum_SYNTHETIC.docx",
+        "12_technical_text_normal_SYNTHETIC.docx"
+      ]
+    },
+    {
+      "id": "SYNTHETIC-TECHNICAL-CONTRADICTORY",
+      "mechanism_expectations": [
+        {
+          "clause": "T-01",
+          "expected_review_verdict": "violated",
+          "literal": "总工期由120天明确替换为90天",
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-02",
+          "expected_review_verdict": "violated",
+          "literal": "混凝土强度C30",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-03",
+          "expected_review_verdict": "satisfied",
+          "literal": "技术措施应说明输入登记、检查、输出三个步骤",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-04",
+          "expected_review_verdict": "not_applicable",
+          "literal": "本SYNTHETIC场景采用明挖施工，不采用顶管；T-04顶管专项技术说明不适用于本场景。",
+          "requires_explicit_evidence_based_applicability_declaration": true,
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-05",
+          "expected_review_verdict": "unable_to_judge",
+          "human_review_state": "unreviewed",
+          "literal": "现场土层条件需人工核实后再确认支护措施",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        }
+      ],
+      "schema_templates_not_api_requests": [
+        {
+          "identity_version": "bid-package/1",
+          "kind": "authority",
+          "members": [
+            {
+              "document_version_id": "ed653379-4076-5526-9ad2-dd38deba8165",
+              "file_digest": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a",
+              "member_id": "ed20d964-2e20-5fad-af8d-763f3fe34f84",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "tender_body"
+              ],
+              "scope": {
+                "bid_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/10_technical_tender_SYNTHETIC.docx"
+            },
+            {
+              "document_version_id": "2c450649-d1a2-570f-8b4e-44f5c1ef4de3",
+              "file_digest": "1812b047758132b52cd6c45c5f41e5be455bf66bddba02d3b92c3c37f9bf2168",
+              "member_id": "dcec024a-27c1-5ff4-908e-72b547e6e4e9",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "addendum"
+              ],
+              "scope": {
+                "bid_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/11_technical_addendum_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "3bfdaad7-57e5-52e1-ba9e-ab1d07dd5f16",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "38fe9828-b4c1-578c-b6a1-0dffc5482518",
+          "scope": {
+            "bid_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        },
+        {
+          "identity_version": "bid-package/1",
+          "kind": "bid",
+          "members": [
+            {
+              "document_version_id": "aa5d9a2e-2154-5bb1-a9b8-64b876b41ad6",
+              "file_digest": "e55a1c564b3bd4f5f7bc11adb033375e3380c9ecd4f3670b0c553af47f5f9824",
+              "member_id": "dffd9a77-12e4-513a-9150-2729d4003e54",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "technical"
+              ],
+              "scope": {
+                "bid_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "own",
+              "source_ref": "SYNTHETIC/13_technical_text_conflict_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "18b7118d-a43f-5eb3-b526-3b09cfbec83e",
+          "scope": {
+            "bid_id": "419b78ba-987a-58d0-9d75-be62df61ddc6",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        }
+      ],
+      "scope": "technical_body_only; no business, pricing, qualification or official scoring",
+      "upload_roles": [
+        "tender",
+        "supplement",
+        "body"
+      ],
+      "uploads": [
+        "10_technical_tender_SYNTHETIC.docx",
+        "11_technical_addendum_SYNTHETIC.docx",
+        "13_technical_text_conflict_SYNTHETIC.docx"
+      ]
+    },
+    {
+      "id": "SYNTHETIC-TECHNICAL-MISSING",
+      "mechanism_expectations": [
+        {
+          "clause": "T-01",
+          "expected_review_verdict": "satisfied",
+          "literal": "总工期由120天明确替换为90天",
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-02",
+          "expected_review_verdict": "not_found",
+          "literal": "混凝土强度C30",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-03",
+          "expected_review_verdict": "satisfied",
+          "literal": "技术措施应说明输入登记、检查、输出三个步骤",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-04",
+          "expected_review_verdict": "not_applicable",
+          "literal": "本SYNTHETIC场景采用明挖施工，不采用顶管；T-04顶管专项技术说明不适用于本场景。",
+          "requires_explicit_evidence_based_applicability_declaration": true,
+          "source": "11_technical_addendum_SYNTHETIC.docx"
+        },
+        {
+          "clause": "T-05",
+          "expected_review_verdict": "unable_to_judge",
+          "human_review_state": "unreviewed",
+          "literal": "现场土层条件需人工核实后再确认支护措施",
+          "source": "10_technical_tender_SYNTHETIC.docx"
+        }
+      ],
+      "schema_templates_not_api_requests": [
+        {
+          "identity_version": "bid-package/1",
+          "kind": "authority",
+          "members": [
+            {
+              "document_version_id": "ed653379-4076-5526-9ad2-dd38deba8165",
+              "file_digest": "00bff17c89a100de4536fb4af48d4ddaf86057ca986370ba6db778ba30aea84a",
+              "member_id": "c960b9c7-57bb-5e61-9f3f-5e3e8fe0c1b0",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "tender_body"
+              ],
+              "scope": {
+                "bid_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/10_technical_tender_SYNTHETIC.docx"
+            },
+            {
+              "document_version_id": "2c450649-d1a2-570f-8b4e-44f5c1ef4de3",
+              "file_digest": "1812b047758132b52cd6c45c5f41e5be455bf66bddba02d3b92c3c37f9bf2168",
+              "member_id": "d8bd2152-c4b7-5521-b46d-b267bd083097",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "addendum"
+              ],
+              "scope": {
+                "bid_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "authority",
+              "source_ref": "SYNTHETIC/11_technical_addendum_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "480bd0be-eb12-5f5a-bed5-3a38c0f806c2",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "bad3e9db-c444-56d0-aee7-faf029201f25",
+          "scope": {
+            "bid_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        },
+        {
+          "identity_version": "bid-package/1",
+          "kind": "bid",
+          "members": [
+            {
+              "document_version_id": "494d3869-9a7c-528e-850d-8f14828f4dd7",
+              "file_digest": "7524372e632c1794456d1d4c613832d0b7954fabf821ab6e82cf1122477784c4",
+              "member_id": "403d1497-dfac-55f3-92e1-4d61924503cb",
+              "page_count": null,
+              "parse": {
+                "config_digest": null,
+                "evidence_digest": null,
+                "parse_run_id": null,
+                "parser_digest": null,
+                "reason": "SYNTHETIC template: upload, conversion and real parsing have not run",
+                "status": "not_frozen"
+              },
+              "parts": [],
+              "purposes": [
+                "technical"
+              ],
+              "scope": {
+                "bid_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+                "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+                "bidder_status": "pending",
+                "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+                "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+                "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+              },
+              "source_kind": "own",
+              "source_ref": "SYNTHETIC/09_technical_missing_SYNTHETIC.docx"
+            }
+          ],
+          "package_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+          "predecessor_digest": null,
+          "revision": 1,
+          "revision_id": "2f39f599-071b-5d14-a7f2-1cf7cdfa745f",
+          "scope": {
+            "bid_id": "3df13c4f-9c07-5d63-a45e-74bcb91d0798",
+            "bidder_id": "901f5baa-b0cc-515d-8b58-4c5b2c0eeb6c",
+            "bidder_status": "pending",
+            "engineering_project_id": "d6b08199-3ab0-505e-bdbe-60d06952d5a4",
+            "lot_id": "eadd5010-7a2a-58d1-b3b4-4b46702f0bfb",
+            "round_id": "0dfa6cb0-1f64-5452-95c5-58459c1377cf"
+          }
+        }
+      ],
+      "scope": "technical_body_only; no business, pricing, qualification or official scoring",
+      "upload_roles": [
+        "tender",
+        "supplement",
+        "body"
+      ],
+      "uploads": [
+        "10_technical_tender_SYNTHETIC.docx",
+        "11_technical_addendum_SYNTHETIC.docx",
+        "09_technical_missing_SYNTHETIC.docx"
+      ]
+    }
+  ],
+  "technical_only_warning": "Expected verdicts are mechanism expectations, not observed model results or human signoff. verified coverage means only human-declared inspected range, not satisfied. All original requirements remain in the denominator; not_applicable needs source evidence and explicit declaration. No official scores."
 }

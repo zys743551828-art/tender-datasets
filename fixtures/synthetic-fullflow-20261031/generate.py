@@ -509,6 +509,95 @@ def documents():
             ]
         ],
     )
+
+    def technical_text_body(title, days, concrete=None):
+        blocks = [
+            heading("SYNTHETIC " + title + " / 虚构"),
+            text("静态目录：技术承诺1；技术措施1；待人工核实1。"),
+            text(f"本文件承诺总工期{days}天。"),
+        ]
+        if concrete is not None:
+            blocks.append(text(f"本文件承诺混凝土强度{concrete}。"))
+        blocks.extend(
+            [
+                text("本场景采用明挖施工，不采用顶管。"),
+                text("技术措施：先登记输入，再检查，最后形成输出。"),
+                text("本资料不提供现场土层勘察结果，支护措施需人工核实后再确认。"),
+                text(
+                    "SYNTHETIC 机制材料；非真实投标、非模型质量标签、非真人业务签收。"
+                ),
+            ]
+        )
+        return [blocks]
+
+    result["09_technical_missing_SYNTHETIC.docx"] = (
+        "own",
+        "technical",
+        "纯文字技术缺失正文",
+        technical_text_body("技术缺失正文", 90),
+    )
+    result["10_technical_tender_SYNTHETIC.docx"] = (
+        "authority",
+        "tender_body",
+        "技术正文专用招标要求",
+        [
+            [
+                heading("SYNTHETIC 技术正文专用招标要求 / 虚构"),
+                text(
+                    "项目：SYNTHETIC 技术正文证据映射案例。静态目录：技术要求1；适用范围1。"
+                ),
+                text(
+                    "仅检查本虚构项目技术正文；不要求本方商务、报价、资质材料，不提供官方评分办法或成绩。"
+                ),
+                text("T-01：总工期120天。"),
+                text("T-02：混凝土强度C30。"),
+                text("T-03：技术措施应说明输入登记、检查、输出三个步骤。"),
+                text("T-04：仅采用顶管施工时，应提供顶管专项技术说明。"),
+                text("T-05：现场土层条件需人工核实后再确认支护措施。"),
+                text(
+                    "T-05不附真实勘察或现场记录，不得推断已人工核实；缺失信息须保持待核实。"
+                ),
+                text(
+                    "本文件全部内容为SYNTHETIC机制材料，不适用于真实投标、工程实施或真人业务签收。"
+                ),
+            ]
+        ],
+    )
+    result["11_technical_addendum_SYNTHETIC.docx"] = (
+        "authority",
+        "addendum",
+        "技术正文专用补遗",
+        [
+            [
+                heading("SYNTHETIC 技术正文专用补遗 / 虚构"),
+                text(
+                    "静态目录：工期替代1；适用条件1。仅对应10号技术正文专用招标要求。"
+                ),
+                text("T-01总工期由120天明确替换为90天；仅替换T-01，其余技术要求不变。"),
+                text(
+                    "本SYNTHETIC场景采用明挖施工，不采用顶管；T-04顶管专项技术说明不适用于本场景。"
+                ),
+                text(
+                    "本补遗不提供现场土层勘察结果，不证明T-05已核实，不设置官方得分或真实资质认定。"
+                ),
+                text(
+                    "SYNTHETIC 自动验收机制材料；非真实招标、非模型质量标签、非真人业务签收。"
+                ),
+            ]
+        ],
+    )
+    result["12_technical_text_normal_SYNTHETIC.docx"] = (
+        "own",
+        "technical",
+        "纯文字技术正常正文",
+        technical_text_body("技术正常正文", 90, "C30"),
+    )
+    result["13_technical_text_conflict_SYNTHETIC.docx"] = (
+        "own",
+        "technical",
+        "纯文字技术矛盾正文",
+        technical_text_body("技术矛盾正文", 150, "C25"),
+    )
     return result
 
 
@@ -632,6 +721,69 @@ def build_outputs():
                 ],
             }
         )
+    technical_authority = [
+        "10_technical_tender_SYNTHETIC.docx",
+        "11_technical_addendum_SYNTHETIC.docx",
+    ]
+    technical_cases = []
+    for name, body, duration, concrete in [
+        ("normal", "12_technical_text_normal_SYNTHETIC.docx", "satisfied", "satisfied"),
+        (
+            "contradictory",
+            "13_technical_text_conflict_SYNTHETIC.docx",
+            "violated",
+            "violated",
+        ),
+        ("missing", "09_technical_missing_SYNTHETIC.docx", "satisfied", "not_found"),
+    ]:
+        technical_cases.append(
+            {
+                "id": "SYNTHETIC-TECHNICAL-" + name.upper(),
+                "uploads": technical_authority + [body],
+                "upload_roles": ["tender", "supplement", "body"],
+                "scope": "technical_body_only; no business, pricing, qualification or official scoring",
+                "mechanism_expectations": [
+                    {
+                        "clause": "T-01",
+                        "source": "11_technical_addendum_SYNTHETIC.docx",
+                        "literal": "总工期由120天明确替换为90天",
+                        "expected_review_verdict": duration,
+                    },
+                    {
+                        "clause": "T-02",
+                        "source": "10_technical_tender_SYNTHETIC.docx",
+                        "literal": "混凝土强度C30",
+                        "expected_review_verdict": concrete,
+                    },
+                    {
+                        "clause": "T-03",
+                        "source": "10_technical_tender_SYNTHETIC.docx",
+                        "literal": "技术措施应说明输入登记、检查、输出三个步骤",
+                        "expected_review_verdict": "satisfied",
+                    },
+                    {
+                        "clause": "T-04",
+                        "source": "11_technical_addendum_SYNTHETIC.docx",
+                        "literal": "本SYNTHETIC场景采用明挖施工，不采用顶管；T-04顶管专项技术说明不适用于本场景。",
+                        "expected_review_verdict": "not_applicable",
+                        "requires_explicit_evidence_based_applicability_declaration": True,
+                    },
+                    {
+                        "clause": "T-05",
+                        "source": "10_technical_tender_SYNTHETIC.docx",
+                        "literal": "现场土层条件需人工核实后再确认支护措施",
+                        "expected_review_verdict": "unable_to_judge",
+                        "human_review_state": "unreviewed",
+                    },
+                ],
+                "schema_templates_not_api_requests": [
+                    package(
+                        "technical-" + name, "authority", technical_authority, metadata
+                    ),
+                    package("technical-" + name, "bid", [body], metadata),
+                ],
+            }
+        )
     expected = {
         "synthetic": True,
         "label_kind": "mechanism_expectations_only",
@@ -654,6 +806,8 @@ def build_outputs():
             "observed_result": None,
         },
         "scenarios": cases,
+        "technical_only_scenarios": technical_cases,
+        "technical_only_warning": "Expected verdicts are mechanism expectations, not observed model results or human signoff. verified coverage means only human-declared inspected range, not satisfied. All original requirements remain in the denominator; not_applicable needs source evidence and explicit declaration. No official scores.",
     }
     files["expected.json"] = stable_json(expected)
     files["manifest.json"] = stable_json(
@@ -734,7 +888,7 @@ def main():
         if schema.get("$id") != SCHEMA_ID:
             raise ValueError("Unexpected application schema")
         validator = jsonschema.Draft202012Validator(schema)
-        for case in expected["scenarios"]:
+        for case in expected["scenarios"] + expected["technical_only_scenarios"]:
             for payload in case["schema_templates_not_api_requests"]:
                 validator.validate(payload)
     generated = ROOT / "generated"
@@ -764,8 +918,9 @@ def main():
         json.dumps(
             {
                 "synthetic": True,
-                "docx_files": 8,
+                "docx_files": 13,
                 "main_scenarios": 3,
+                "technical_only_scenarios": 3,
                 "field_policy_negative": 1,
                 "schema_validated": bool(args.schema),
                 "byte_check": args.check,
